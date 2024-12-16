@@ -1,0 +1,37 @@
+.input {
+    padding: "10px";
+    margin-bottom: "10px";
+    width: "80%";
+    max-width: "400px"
+  }
+
+.buttonPrimary {
+    padding: "10px 20px";
+    background-color: "#007BFF";
+    color: "white";
+    border: "none";
+    border-radius: "5px";
+    cursor: "pointer";
+    margin-top: '20px'
+  }
+
+.buttonSecondary {
+    padding: "10px 20px";
+    background-color: "#6c757d";
+    color: "white";
+    border: "none";
+    border-radius: "5px";
+    cursor: "pointer";
+    margin-left: "10px"
+  }
+
+.container { 
+    text-align: "center";
+    padding: "50px"
+}
+
+.container > h1 {
+    color: 'black'
+}
+
+  

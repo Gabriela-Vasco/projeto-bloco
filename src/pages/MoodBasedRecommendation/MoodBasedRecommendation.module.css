@@ -1,0 +1,106 @@
+.moodContainer {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 50px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  margin: 35px 20px;
+}
+
+.titleContainer > h2 {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.button {
+  padding: 7px 17px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f64fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.moodButtons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.moodButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #f4f4f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.moodButton:hover {
+  background-color: #f64fff;
+  color: #fff;
+}
+
+.results {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+
+.poster {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .moodContainer {
+    width: 90%;
+  }
+  .card {
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .moodButtons {
+    gap: 10px;
+  }
+
+  .titleContainer > h2 {
+    font-size: 18px;
+  }
+}
